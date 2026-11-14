@@ -1,0 +1,21 @@
+{
+  "name": "database-example",
+  "version": "0.1.0",
+  "description": "Example application demonstrating database integration with Backend Toolkit - BaaS.",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gfg-backend/config": "*",
+    "@gfg-backend/database": "*",
+    "@gfg-backend/errors": "*",
+    "@gfg-backend/logger": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
